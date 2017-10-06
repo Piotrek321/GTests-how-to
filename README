@@ -21,7 +21,7 @@ This step might differ from distro to distro, so make sure you copy the headers 
 
 sudo cp -a googletest/include/gtest /usr/include
 sudo cp -a ./googlemock/gtest/libgtest_main.so ./googlemock/gtest/libgtest.so /usr/lib/
-
+sudo cp -a googlemock/include/gmock/ /usr/include/
 4. Update the cache of the linker
 
 ... and check if the GNU Linker knows the libs
